@@ -1,4 +1,28 @@
-﻿@page
+﻿@page "{id}"
 @model League.Pages.Players.PlayerModel
 @{
+    ViewData["Title"] = "League - Player";
 }
+
+<div class="jumbotron">
+    <div class="display-3">
+        <img src="~/image/nfl/logo/@(Model.Player.TeamId).png" /> @Model.Player.Number @Model.Player.Name
+    </div>
+</div>
+
+<div class="container">
+    <div class="mt-2 mb-2">@Model.Player.Position</div>
+    <hr />
+    <div class="mt-2">Rating: @Model.Player.Rating</div>
+    <div>Rank: @Model.Player.Rank</div>
+    <div class="mb-2">Depth: @Model.Player.Depth</div>
+    <hr />
+    <div class="mt-2">Experience: @Model.Player.Experience</div>
+    <div>College: @Model.Player.College</div>
+    <div class="mb-2">Draft: @Model.Player.DraftYear - @Model.Player.DraftRound - @Model.Player.DraftPick</div>
+    <hr />
+    <div class="mt-2">Height: @Model.feet' @Model.inches" </div>
+    <div>Weight: @Model.Player.Weight lbs.</div>
+    <div>Age: @Model.Player.Age yrs.</div>
+    <div class="mb-2">Birthday: @Model.Player.BirthDate</div>
+</div>
