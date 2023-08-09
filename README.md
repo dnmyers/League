@@ -12,7 +12,7 @@ Welcome to the League ASP.NET Core project! This project serves as a dynamic web
 - [Contributing](#contributing)
 - [License](#license)
 
-## [Overview]
+## Overview
 
 League is a multi-page web application built using ASP.NET Core, Entity Framework, and LINQ. The app presents a comprehensive sports league display, complete with teams and players. Users can explore team details, and player information, and utilize advanced sorting and filtering options.
 
