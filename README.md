@@ -24,13 +24,13 @@ This project was developed as part of a capstone project for Codecademy's ASP.NE
 
 ## Getting Started
 1. Clone the repository:
-- ```git clone https://github.com/dnmyers/league-aspnet-project.git```
+   ```git clone https://github.com/dnmyers/League.git```
 2. Navigate to the project directory:
--```cd league-aspnet-project```
+  ```cd league```
 3. Install required packages:
-- ```dotnet restore```
+  ```dotnet restore```
 4. Build and run the project:
-- ```dotnet run```
+  ```dotnet run```
 5. Access the app in your browser at http://localhost:5000.
 
 ## Project Structure
