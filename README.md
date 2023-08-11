@@ -1,6 +1,8 @@
 # League ASP.NET Core Project
 Welcome to 'League', my Codecademy ASP.NET Core capstone project! This project serves as a dynamic web application designed to showcase sports league data, including teams, players, and advanced sorting and filtering features.
 
+![Preview of League](https://danielnmyers.com/images/league.png)
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
@@ -14,8 +16,6 @@ Welcome to 'League', my Codecademy ASP.NET Core capstone project! This project s
 League is a multi-page web application built using ASP.NET Core, Entity Framework, and LINQ. The app presents a comprehensive sports league display, complete with teams and players. Users can explore team details, and player information, and utilize advanced sorting and filtering options.
 
 This project was developed as part of a capstone project for Codecademy's ASP.NET skill path, demonstrating proficiency in web development, database management, and creating interactive user experiences.
-
-![Preview of League](https://danielnmyers.com/images/league.png)
 
 ## Features
 - Display sports league data including teams and players.
