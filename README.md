@@ -15,6 +15,8 @@ League is a multi-page web application built using ASP.NET Core, Entity Framewor
 
 This project was developed as part of a capstone project for Codecademy's ASP.NET skill path, demonstrating proficiency in web development, database management, and creating interactive user experiences.
 
+![Preview of League](https://danielnmyers.com/images/league.png)
+
 ## Features
 - Display sports league data including teams and players.
 - Utilize Entity Framework for efficient data retrieval.
